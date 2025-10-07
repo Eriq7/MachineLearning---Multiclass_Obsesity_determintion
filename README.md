@@ -3,6 +3,7 @@ Multi-Class Classification — OvR vs OvO (Logistic Regression)
 This project demonstrates a multi-class classification pipeline that compares One-vs-Rest (OvR) and One-vs-One (OvO) logistic regression strategies.
 It provides an easy way to evaluate and visualize which approach delivers higher accuracy and more robust performance.
 
+
 🧰 Tech Stack
 
 Python 3.10+
@@ -14,6 +15,7 @@ scikit-learn – LogisticRegression, OneVsRestClassifier, OneVsOneClassifier, cr
 Matplotlib / Seaborn – visualization
 
 Jupyter Notebook – interactive workflow
+
 
 🤖 Why Machine Learning?
 
@@ -37,10 +39,12 @@ Reusability → once trained, the model can be applied to new datasets instantly
 
 👉 In short: ML transforms the classification problem into a repeatable, data-driven, and adaptive process, ensuring that the best approach (OvR vs. OvO) can be identified quickly and applied to real-world scenarios.
 
+
 📊 Feature Importance
 
 The notebook also includes a feature importance analysis by averaging absolute coefficients across classifiers
 By this project, the top 3 features that will effect Obesesity level are --> weight, gender, height
+
 
 🔄 Pipeline & Reusability
 
